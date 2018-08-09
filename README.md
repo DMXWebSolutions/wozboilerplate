@@ -2,4 +2,4 @@
 
 Isto é um projeto de boilerplate para agilizar no desenvolvimento.
 
-Em ambiente de produção, é de grande utilidade usar algum plugin para remover css que não está sendo usado nas páginas HTML.
+O boilerplate gera um projeto default com estrutura de pastas /name-projeto, /css /css/wozcss.css, /images, /gulp-minify. Também é criado um arquivo index.php com tags pré definidas para um SEO essencial e Mobile First.
