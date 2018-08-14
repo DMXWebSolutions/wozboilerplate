@@ -22,9 +22,13 @@ O boilerplate gera um projeto default com estrutura de pastas:
 index.php ( 
   
   COM:
+  
   com tags pré definidas para um SEO essencial e Mobile First.
+  
   Bootstrap 4.1.3
+  
   Fonts Raleway e Sintony
+  
   Script JQuery para navegação de Menu
   
 )
