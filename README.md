@@ -6,7 +6,8 @@ O boilerplate gera um projeto default com estrutura de pastas:
 
 /name-projeto, 
 
-/css/wozcss.css, 
+/css/app.css (Para css que não pode ser reutilizável / personalizado )
+/css/util.css (Utilidades), 
 
 /images, 
 
@@ -14,8 +15,16 @@ O boilerplate gera um projeto default com estrutura de pastas:
 
 /templates/footer.php
 
-/gulp-minify
+/gulp + plugin para remover css que não está em uso
 
 .htaccess (para remover .php e redirecionar para https)
 
-index.php ( com tags pré definidas para um SEO essencial e Mobile First.)
+index.php ( 
+  
+  COM:
+  com tags pré definidas para um SEO essencial e Mobile First.
+  Bootstrap 4.1.3
+  Fonts Raleway e Sintony
+  Script JQuery para navegação de Menu
+  
+)
