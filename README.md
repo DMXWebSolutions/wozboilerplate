@@ -1,4 +1,4 @@
-# wozcss
+# wozboilerplate
 
 Isto é um projeto de boilerplate para agilizar no desenvolvimento.
 
