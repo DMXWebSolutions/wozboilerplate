@@ -15,9 +15,9 @@ O boilerplate gera um projeto default com estrutura de pastas:
 
 /templates/footer.php
 
-/gulp + plugin para remover css que não está em uso
+/gulp + plugin para remover css que não está em uso (A IMPLEMENTAR)
 
-.htaccess (para remover .php e redirecionar para https)
+.htaccess (para remover .php e redirecionar para https) (A IMPLEMENTAR)
 
 index.php ( 
   
@@ -27,7 +27,7 @@ index.php (
   
   Bootstrap 4.1.3
   
-  Fonts Raleway e Sintony
+  Fonts Raleway, Work Sans e Sintony
   
   Script JQuery para navegação de Menu
   
