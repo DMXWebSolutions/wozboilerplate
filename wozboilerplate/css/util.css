@@ -55,6 +55,12 @@
 }
 
 
+/* PADDING */
+.p-2-5 {
+    padding:0.75rem!important;
+}
+
+
 /* POSITION */
 .p-absolute { position: absolute; }
 .p-fixed { position: fixed; } 
