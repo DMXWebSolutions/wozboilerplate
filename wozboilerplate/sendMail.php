@@ -46,13 +46,13 @@ if ($btnSend) {
         
         $_SESSION['status'] = "<div class='alert alert-success'><b>Sucesso!</b> Email enviado com êxito. </div>";
 
-        header('location:index.php');
+        header('location:index');
 
     } catch (Exception $e) {
         
         $_SESSION['status'] = "<div class='alert alert-danger'><b>Ops!</b> Ocorreu algum problema. Email não enviado. </div>";
 
-        header('location:index.php');
+        header('location:index');
     }
 }
 
