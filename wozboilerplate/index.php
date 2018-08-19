@@ -16,9 +16,9 @@
   <link href="https://fonts.googleapis.com/css?family=Work+Sans:200,300,400,500,600,700,800" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Sintony:200,300,400,500,600,700,800" rel="stylesheet">
 
-  <link href="" rel="canonical">
-
   <link rel="shortcut icon" href="images/favicon.png">
+  
+  <link href="" rel="canonical">
 
   <meta name="author" content="">
   <meta name="robots" content="index, follow">
