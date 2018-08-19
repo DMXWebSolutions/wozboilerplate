@@ -17,7 +17,7 @@ O boilerplate gera um projeto default com estrutura de pastas:
 
 /gulp + plugin para remover css que não está em uso (A IMPLEMENTAR)
 
-.htaccess (para remover .php e redirecionar para https) (A IMPLEMENTAR)
+.htaccess (para remover .php e redirecionar para https) (HHTTPS A IMPLEMENTAR)
 
 index.php ( 
   
