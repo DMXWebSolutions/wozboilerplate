@@ -1,3 +1,19 @@
+/* COL */
+@media(max-width:768px) { .col-xs-12 { width: 100% !important; } }
+
+
+/* WIDTH */
+@media (min-width:769px) {
+	.w-md-388px{width:388px;}
+	.w-md-350px{width:350px;}
+	.h-md-350px{height:350px;}
+}
+@media (max-width:768px) {
+	.w-xs-100{width:100%;}
+	.w-xs-300px{width:340px;}
+}
+
+
 /* HEIGHT */
 .h-min-125{min-height: 125px;}
 .h-100vh{height: 100vh;}
@@ -6,6 +22,9 @@
 .h-400px { height: 400px; }
 .h-85px { height: 85px; }
 .h-50px { height: 50px; }
+@media (max-width:768px) {
+	.h-xs-300px{height:340px;}
+}
 
 
 /* FONTS */
@@ -23,7 +42,7 @@
 .weight-600{font-weight:600;}
 .weight-700{font-weight:700;}
 .weight-800{font-weight:800;}
-
+	
 
 /* FONT SIZE */
 .fs-10{font-size:10px;}
@@ -39,16 +58,31 @@
 .fs-20{font-size:20px;}
 .fs-21{font-size:21px;}
 .fs-22{font-size:22px;}
+.fs-37{font-size:37px;}
+.fs-50{font-size:50px;}
 @media (min-width: 769px) { .fs-md-70{font-size: 70px;} }
 
 
 /* MARGIN */
+.mh-2 { margin-left: 2rem!important; margin-right: 2rem!important; }
+.mt-10 { margin-top: 8rem!important; }
+.mb-9 { margin-bottom: 7rem!important; }
+.mt-9 { margin-top: 7rem!important; }
 .mt-7 { margin-top: 5rem!important;  }
+.mb-7 { margin-bottom: 5rem!important; }
 .mt-6 { margin-top: 4rem!important; }
+.mb-6 { margin-bottom: 4rem!important; }
 .mt-4-5 {margin-top: 2.3rem!important;}
+.mt--33 { margin-top: -33px; }
+.mb--5 { margin-bottom: -5px; }
+
+@media (max-width:768px) {
+	.ml-xs--5 { margin-left: -5px; }
+}
+
 @media (min-width: 769px) {
-.ml-md-6 { margin-left: 4rem!important; }
-.mr-md-6 { margin-right: 4rem!important; }
+	.ml-md-6 { margin-left: 4rem!important; }
+	.mr-md-6 { margin-right: 4rem!important; }
 }
 @media (max-width: 768px) {
 	.mb-xs-5 { margin-bottom: 3rem!important; }
@@ -80,8 +114,37 @@
 
 
 /* CURSOR */
+.cursor-notallowed { cursor: not-allowed; }
 .cursor-pointer { cursor: pointer; }
 
 
 /* DECORATION */
 .hover-d-none:hover {  text-decoration: none; }
+
+
+/* OVERFLOW */
+.overflow-hidden { overflow: hidden; }
+
+
+/* COLOR */
+.text-e2 { color:#e2e2e2; }
+.text-dourado { color: #d3b11b; }
+.text-db { color: #dbdbdb; }
+
+/* BACKGROUND */
+.bg-2d { background: #2d2d2d; }
+.bg-222 { background: #222; }
+.bg-gray-15 { background: rgba(71, 71, 71, .15); }
+.bg-gray-25 { background: rgba(71, 71, 71, .25); }
+
+
+/* ROUNDED */
+.rounded-left-0 { border-bottom-left-radius: 0px!important; border-top-left-radius: 0px!important; }
+
+
+/* RESIZE */
+.resize-none { resize: none; }
+
+
+/* COMPONENTS */ 
+.divider-v {height: 60px;width: 2px;}
